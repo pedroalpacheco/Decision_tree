@@ -1,5 +1,6 @@
 const dt = require('node-decision-tree')
 
+//Objeto treinamento
 const treinamento = [
     {contas_dia:'sim',nome_limpo:'sim',renda:'alta',risco:'baixo'},
     {contas_dia:'nao',nome_limpo:'sim',renda:'alta',risco:'baixo'},
